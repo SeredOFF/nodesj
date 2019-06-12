@@ -10,6 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "supervisor": "^0.12.0",
     "webpack": "^4.33.0"
+  },
+  "scripts": {
+    "devmode": "supervisor server.js"
   }
 }
