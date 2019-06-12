@@ -1,6 +1,14 @@
 {
-  "name": "my-awesome-package",
+  "name": "nodesj-training",
+  "description": "",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SeredOFF/nodesj.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "webpack": "^4.33.0"
   }
