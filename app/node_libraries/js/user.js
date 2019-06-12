@@ -1,6 +1,6 @@
 'use strict';
 
-let ruLang = require('../json/ru');
+let ruTranslator = require('../json/ru');
 
 class User {
 
@@ -9,7 +9,7 @@ class User {
     }
 
     sayHi() {
-        console.log(ruLang.Hello + ", " + this.name);
+        console.log(ruTranslator.Hello + ", " + this.name);
     }
 
 }
