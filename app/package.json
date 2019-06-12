@@ -1,0 +1,7 @@
+{
+  "name": "my-awesome-package",
+  "version": "1.0.0",
+  "dependencies": {
+    "webpack": "^4.33.0"
+  }
+}
