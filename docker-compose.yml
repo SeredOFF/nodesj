@@ -3,12 +3,11 @@ version: '3'
 services:
   nodejs:
     container_name: nodejs
-    image: node:12
+    build:
+      context: ./resources/node
     user: node
-    environment:
-      - NODE_ENV=production
     ports:
-      - 8000:8000
+      - 3000:3000
     volumes:
       - ./app:/home/node/app
     working_dir: /home/node/app
