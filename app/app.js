@@ -1,15 +1,5 @@
-const express = require('express');
-const http = require('http');
-const path = require('path');
-
-
-
-http.createServer(app).listen(app.get('port'), () => {
-  console.log('Express server listening on port ' + app.get('port'));
-});
-
-
-
+var express = require('express');
+var path = require('path');
 var createError = require('http-errors');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
@@ -17,9 +7,7 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
-
-let app = express();
-app.set('port', 3000);
+var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
