@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <link rel='stylesheet' href='/vendor/bower_components/bootstrap/dist/css/bootstrap.css' />
+  <link rel='stylesheet' href='/css/style.css' />
+
+  <script src='/vendor/bower_components/jquery/dist/jquery.js'></script>
+  <script src='/vendor/bower_components/bootstrap/dist/js/bootstrap.js'></script>
+
+</head>
+<body>
+
+  <header>
+    <%- blocks.header %>
+  </header>
+
+  <section class="container">
+    <%- partial('../partials/top-navigation') -%>
+
+    <%- body -%>
+  </section>
+
+  <footer>
+    <%- blocks.footer -%>
+  </footer>
+
+</body>
+</html>

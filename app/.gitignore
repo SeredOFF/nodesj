@@ -12,4 +12,5 @@ nbproject
 
 # composer vendor dir
 /node_modules
+/public/vendor
 
